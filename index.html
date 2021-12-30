@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>자연한스푼</title>
+    <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css" />
+    <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://kenwheeler.github.io/slick/slick/slick.min.js"></script>
+<link href="begun.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images2/recipeR1.png','images2/recipeR002.png','images2/recipeR3.png');MM_openBrWindow('event.html','GoType','scrollbars=yes,resizable=yes,width=500,height=500')">
+<div id="headTitle"><a href="index.html"><img src="images2/logo.png" width="400" height="200" alt=""/></a>
+  <div id="menuTitle"></div>
+</div>
+<div class="menu">
+  <pre style="font-size: 16px"><a href="index.html" style="font-size: large">Home</a>            <a href="#" onClick="MM_popupMsg('준비중입니다!')" onMouseOver="MM_showHideLayers('subMenu','','show')">Recipe</a>            <a href="product.html" onMouseOver="MM_showHideLayers('subMenu','','show')">Product</a><a href="#"></a>            <a href="#" onClick="MM_popupMsg('준비중입니다!')">About</a>                                    <span style="font-size: 14px" onfocus="MM_popupMsg('준비중입니다!')"><a href="#" onClick="MM_popupMsg('준비중입니다!')">join</a>   |  <a href="#">sing in</a></span></pre>
+  <div id="subMenu" style="visibility:hidden;"> 
+  <table width="680" border="0" cellspacing="1" cellpadding="5">
+    <tbody>
+      <tr>
+        <td><a href="product.html">Vegan</a></td>
+        <td><a href="#">Lacto</a></td>
+        <td><a href="#">Ovo</a></td>
+        <td><a href="#">Lacto Ovo</a></td>
+        <td><a href="#">Pesco</a></td>
+        <td><a href="#">Pollo</a></td>
+		<td><a href="#">Flexiarian</a></td>
+		<td style="border-width: thin; border-style: dashed;" onClick="MM_showHideLayers('subMenu','','hide')">close(x)</td>
+      </tr>
+    </tbody>
+  </table>
+    <p>&nbsp;</p>
+  </div>
+</div>
+	
+<div id="slide">
+  <div id="slide-wrapper">
+        <div><img src="images2/product002.png" width = "1100" height="600" class="slick-track" onClick="MM_popupMsg('상품 준비중입니다!')"></div>
+		<div class="slick-track"><img src="images2/product003.png" width = "1100" height="600" class="slick-track" onClick="MM_popupMsg('상품 준비중입니다!')"></div>
+		<div><img src="images2/product004.png" width = "1100" height="600" class="slick-track" onClick="MM_popupMsg('상품 준비중입니다!')"></div>
+		<div><img src="images2/product005.png" width = "1100" height="600" class="slick-track" onClick="MM_popupMsg('상품 준비중입니다!')"></div>
+        <div><img src="images2/product006.png" width = "1100" height="600" class="slick-track" onClick="MM_popupMsg('상품 준비중입니다!')"></div>
+</div>
+</div>
+
+<div id="recipe">
+  <div class="recipe_img">
+    <p><span style="text-align: center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('recipe1','','images2/recipeR1.png',1)"><img src="images2/recipe1.jpeg" alt="" width="300" height="400" class="recipe_img" id="recipe1" onClick="MM_popupMsg('렌틸 콩 무사카 레시피 궁금하신가요?\r기대해주세요!')"></a>
+		<a href="recipeView.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('recipe2','','images2/recipeR002.png',1)"><img src="images2/recipe2.jpeg" alt="병아리콩 파스타" width="300" height="400" class="recipe_img" id="recipe2"></a></span>
+		<a href="#" style="text-align: center" onMouseOver="MM_swapImage('recipe3','','images2/recipeR3.png',1)" onMouseOut="MM_swapImgRestore()"><img src="images2/recipe3.jpeg" alt="아보카도두부 김밥" width="300" height="400" class="recipe_img" id="recipe3" onClick="MM_popupMsg('색다르게 즐겨보는 두부, 아보카도 김밥~\r기대해주세요!')"></a></p>
+    <p style="text-align: center"><img src="images2/recipeGo.png" alt="" width="300" height="80" class="recipe_img" onClick="MM_popupMsg('래시피 준비중입니다!')"/><img src="images2/recipeGo.png" alt="" width="300" height="80" usemap="#Map2" class="recipe_img" href="recipeView.html"/>
+      <map name="Map2">
+        <area shape="poly" coords="7,4" href="#">
+        <area shape="rect" coords="8,7,300,73" href="recipeView.html">
+      </map>
+    <img src="images2/recipeGo.png" alt="" width="300" height="80" class="recipe_img" onClick="MM_popupMsg('래시피 준비중입니다!')"/></p>
+  </div>
+</div>
+<div id="type">
+  <p><img src="images2/level.png" alt="" width="1254" usemap="#Map"/>
+    <map name="Map">
+      <area shape="rect" coords="497,599,705,674" href="#" onClick="MM_popupMsg('래시피 준비중입니다!')">
+      <area shape="rect" coords="497,131,706,204" onClick="MM_popupMsg('레시피 준비중입니다!')">
+      <area shape="rect" coords="496,211,702,278" onClick="MM_popupMsg('레시피 준비중입니다!')">
+      <area shape="rect" coords="495,285,706,356" onClick="MM_popupMsg('래시피 준비중입니다!')">
+      <area shape="rect" coords="494,362,706,433" onClick="MM_popupMsg('래시피 준비중입니다!')">
+      <area shape="rect" coords="496,439,707,511" onClick="MM_popupMsg('래시피 준비중입니다!')">
+      <area shape="rect" coords="497,519,707,588" onClick="MM_popupMsg('래시피 준비중입니다!')">
+    </map>
+  </p>
+</div>
+
+<footer class="bottom">
+  <div class="bottomInfo">
+		<div class="bottomInfo_block">
+	    <pre>&nbsp;
+
+
+</pre></div>
+	<table width="680" border="0" cellspacing="1" cellpadding="5">
+	  <tbody>
+		    <tr>
+		      <td width="274" style="text-align: center; color: #FFFFFF; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;"><p>Address</p>
+	          <p><a href="https://www.google.com/maps/place/서울여자대학교/@37.6281126,127.0882681,17z/data=!3m1!4b1!4m5!3m4!1s0x357cb9870d108e45:0x14cb14d89b7450a7!8m2!3d37.6281126!4d127.0904568" target="new" style="color: white;">서울특별시 노원구 공릉2동 화랑로 621</a></p></td>
+		      <td width="152" style="text-align: center; color: #FFFFFF; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;"><p>Call</p>
+	          <p>02-555-1234</p></td>
+		      <td width="220"><p style="text-align: center; color: #FFFFFF; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">Kakao Talk</p>
+	          <p><a href="https://open.kakao.com/o/s5alzBhd" target="new"><img src="images2/kakaotalk.png" width="80" height="80" alt=""/></a></p></td>
+	        </tr>
+      </tbody>
+    </table>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+  </div>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</footer>
+</body>
+	
+<script type="text/javascript">
+	
+$(document).ready(function () {
+	$('#slide-wrapper').slick({
+	autoplay : true,
+
+		dots: true,
+
+		speed : 300 /* 이미지가 슬라이딩시 걸리는 시간 */,
+
+		infinite: true,
+
+		autoplaySpeed: 3000 /* 이미지가 다른 이미지로 넘어 갈때의 텀 */,
+
+		arrows: true,
+
+		slidesToShow: 1,
+
+		slidesToScroll: 1,
+
+		fade: false
+});
+});
+
+
+
+</script>
+</html>

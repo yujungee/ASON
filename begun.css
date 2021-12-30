@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+
+@font-face {
+  font-family:"godom";
+  src:url('NanumBarunGothic.ttf');
+}
+
+#boardMenu {
+    text-align: left;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #545454;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 20px;
+}
+#usingProduct {
+    margin-top: 50px;
+}
+#usingProduct #usingProductP p {
+    background-color: #CDD7C4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+    font-style: normal;
+    font-weight: bolder;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    text-shadow: 0px 0px;
+}
+#container {
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 100px;
+    text-align: left;
+    display: block;
+}
+#Page {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Page #itemPage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.itemTitle {
+	font-size: 18px; 
+	color: #000000;
+}
+.itemPrice {
+	font-size: 16px; 
+	color: #000000;
+}
+.itemSubInfo {
+	font-size: 12px; 
+	color: #939393;
+}
+#category table {
+    display: block;
+    margin-left: auto;
+    margin-right: atuo;
+}
+#category {
+    margin-top: 40px;
+}
+#items table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#itemPage table {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+    text-align: center;
+}
+#slide #slide-wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#container #form-commentInfo #comment-count {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+#form-commentInfo span #comment-wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+span #comment-wrapper #comment-input {
+    width: 90%;
+}
+
+span #comment-wrapper #submit {
+    width: 100px;
+}
+
+
+
+@media screen{
+
+	a:link {
+    text-decoration: none;
+    color: black;
+}
+span #comment-wrapper .comments-table {
+    width: 100%;
+    border-color: #000000;
+}
+.menu #subMenu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu #subMenu table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#container #usingProduct {
+    background-color: #F2F1F0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#recipeContent pre{
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;  
+}
+a:visited {text-decoration: none; color: black;}
+a:active {text-decoration: none; color: black;}
+a:hover {
+    text-decoration: none;
+    color: #F6916E;
+}
+	
+	
+	body {
+    text-align: center;
+	}
+.recipe_img {
+    display: inline;
+    margin-top: 0px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    object-fit: cover;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#headTitle {
+    display: block;
+}
+.menu {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headTitle img {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    vertical-align: top;
+    color: #333333;
+}
+#recipe {
+    padding-bottom: 5px;
+    background-color: #CDD7C4;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#type img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#type {
+    background-color: #F5F3EF;
+}
+#logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#slide {
+    padding-bottom: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: atuo;
+}
+#map p img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bottom {
+    background-color: #CDD7C4;
+}
+.bottomInfo {
+    background-color: #2EA599;
+}
+.bottom .bottomInfo table {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+tbody tr td {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+}
+td p img {
+    display: inline;
+}
+#recipeContent {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#recipeContent #ingredient {
+    border: thin dashed #FF0004;
+}
+}

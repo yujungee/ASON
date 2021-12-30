@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>event.html</title>
+<script type="text/javascript">
+function MM_callJS(jsStr) { //v2.0
+  return eval(jsStr)
+}
+	
+function MovePage() {
+        window.opener.top.location.href="index.html#type";
+        window.close();
+}
+</script>
+</head>
+
+<body>
+<img src="images2/event.png" alt="" width="500" height="500" usemap="#Map"/>
+<map name="Map">
+  <area shape="rect" coords="117,319,380,356" href="javascript:MovePage();" >
+</map>
+<div id ="checkBoxId" style="left: 228px; width: 77px; bottom: 93px; font-size: 20px; font-weight: bold; position: absolute;">
+	<label> 닫기 <input name="color" type="checkbox" onClick="MM_callJS('window.close();')" value="close"></label>
+	</div>
+</body>
+<!--
+<script>
+	$(document).ready(function(){
+    $("#checkBoxId").change(function(){
+        if($("#checkBoxId").is(":checked")){
+           window.close();
+        }
+    });
+});
+	</script>
+-->
+</html>
